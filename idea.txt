@@ -7,4 +7,6 @@ QR menu (work in progress wala title)
 - Option to  host on web or on their WLAN.
 - (adding some ai stuff will be cool)
 - Customers can apply filters and get a better view of the menu.
-- Ai generated pictures for dishes that dont have a picture so that they don have to take actual pictures for everything.
+- Ai generated pictures or Ai will search for a good irl picture for dishes that dont have a picture so that they don have to take actual pictures for everything.
+- Also generate the cal val for the dishes.
+- Feature to allow customers to see the progress of the order or track the order.
