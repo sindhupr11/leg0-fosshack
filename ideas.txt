@@ -1,6 +1,6 @@
 QR menu (work in progress wala title)
 
-- A website that allows restaurant owners to digitalize their menu
+- A website that allows restaurant owners to digitize their menu
 - Customers would be able to access the menu through a QR code.
 - The website would allow restaurant owners to update their menu in real-time. So saves time and paper.
 - Menu need not be hosted on the web. It can be done on restaurants WLAN and customers can use it.
@@ -10,6 +10,8 @@ QR menu (work in progress wala title)
 - Ai generated pictures or Ai will search for a good irl picture for dishes that dont have a picture so that they don have to take actual pictures for everything.
 - Also generate the cal val for the dishes.
 - Feature to allow customers to see the progress of the order or track the order.
+- Feature to see the most popular item on the menu
+- A rating system for people to give feedback for the restaraunt
 
 https://qrmenu.com/
 
