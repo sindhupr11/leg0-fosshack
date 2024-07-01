@@ -10,3 +10,11 @@ QR menu (work in progress wala title)
 - Ai generated pictures or Ai will search for a good irl picture for dishes that dont have a picture so that they don have to take actual pictures for everything.
 - Also generate the cal val for the dishes.
 - Feature to allow customers to see the progress of the order or track the order.
+
+https://qrmenu.com/
+
+News Aggregrator 
+
+- Sentiment based news Aggregrator
+- scrap or fetch news articles based on user interest. Then show contrasting view points for that topic.
+- article summarisation(pattuvane)
