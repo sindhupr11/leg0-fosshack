@@ -1,0 +1,5 @@
+QR menu (work in progress wala title)
+
+- A website that allows restaurant owners to digitalize their menu
+- Customers would be able to access the menu through a QR code.
+
