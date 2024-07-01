@@ -11,7 +11,7 @@ QR menu (work in progress wala title)
 - Also generate the cal val for the dishes.
 - Feature to allow customers to see the progress of the order or track the order.
 
-https://qrmenu.com/
+https://qrmenu.com/(existing project ind sheyy)
 
 News Aggregrator 
 
