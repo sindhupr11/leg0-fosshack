@@ -13,7 +13,7 @@ QR menu (work in progress wala title)
 - Feature to see the most popular item on the menu
 - A rating system for people to give feedback for the restaraunt
 
-https://qrmenu.com/(existing project ind sheyy)
+https://qrmenu.com/(existing project ind sheyyyy)
 
 News Aggregrator 
 
