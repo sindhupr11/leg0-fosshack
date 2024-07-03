@@ -20,3 +20,14 @@ News Aggregrator
 - Sentiment based news Aggregrator
 - scrap or fetch news articles based on user interest. Then show contrasting view points for that topic.
 - article summarisation(pattuvane)
+
+
+
+
+Addition to qr menu maybe:
+
+- generates QR codes for each table in the restaurant, ordering is done by scanning the qr code of the table you're sitting at. automatically inputs the table no and opens the menu, select food items, pay on the spot, status of all tables can be seen in the kitchen screen, whether vacant / ordered / recieved / paid. no need for wait for waiter to come. enter restaurant, sit, order, pay, wait, food comes, eat, leave.
+
+- when restaurant adds food items into menu, ---automatically finds appropriate reference   images from web
+---gets ai generated description of the menu item if widely known
+---approximate calorie count
