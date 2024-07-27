@@ -31,14 +31,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-def get_current_user(credentials: HTTPAuthorizationCredentials = Depends(security)):
-    try:
-        decoded_token = auth.verify_id_token(credentials.credentials)
-        return decoded_token
-    except Exception as e:
-        raise HTTPException(status_code=401, detail="Invalid token")
-
 @app.get("/api/python")
-def hello_world(request: Request, current_user: dict = Depends(get_current_user)):
-    mystr = f"Hello, {current_user['name']}. This is a random sentence"
+def hello_world():
+    mystr = "Hello, User. This is a random sentence"
     return {"message":mystr}
