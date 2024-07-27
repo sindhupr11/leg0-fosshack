@@ -1,21 +1,15 @@
-import json
-from fastapi import FastAPI, Request, HTTPException, Depends
+from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
-import firebase_admin
-from firebase_admin import auth, credentials, initialize_app
-from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
+from fastapi.security import HTTPBearer
 
 
-from os import getenv, path
+from os import path
 from dotenv import load_dotenv
 
 app_base = path.dirname(__file__)
 app_root = path.join(app_base, '../')
 
 load_dotenv(dotenv_path=path.join(app_root, '.env'))
-
-cred = credentials.Certificate(json.loads(getenv("SERVICE_ACCOUNT_KEY")))
-firebase_admin.initialize_app(cred)
 
 app = FastAPI()
 
@@ -32,6 +26,6 @@ app.add_middleware(
 )
 
 @app.get("/api/python")
-def hello_world():
-    mystr = "Hello, User. This is a random sentence"
+def hello_world(request: Request):
+    mystr = f"Hello, {request['name']}. This is a random sentence"
     return {"message":mystr}
