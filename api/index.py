@@ -27,5 +27,6 @@ app.add_middleware(
 
 @app.get("/api/python")
 def hello_world(request: Request):
-    mystr = f"Hello, {request['name']}. This is a random sentence"
+    mystr = f"Hello, User. This is a random sentence"
+    print(request.query_params.get("user"))
     return {"message":mystr}
