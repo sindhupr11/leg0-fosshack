@@ -7,7 +7,7 @@ const LoginPage: React.FC = () => {
   const [formType, setFormType] = useState<FormType>('loginUser');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-
+                                                                                                
   const handleEmailChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setEmail(e.target.value);
   };
